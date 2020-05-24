@@ -8,6 +8,7 @@ The time series data forcast can be modeled as a univariate regression-type prob
 
 which I aim to solve using the a simple LSTM neural network.
 
+
 Here  𝑋𝑡  is the number of passengers at time step  𝑡 ,  𝑋𝑡−1  denotes number of passengers at the previous time step, and  Θ  refers to all the other model parameters, including LSTM hyperparameters.
 
 Note: For better readability, in the code for this as well as the next example, the predicted new value at time step  𝑡  is written as Y.
@@ -15,5 +16,5 @@ Note: For better readability, in the code for this as well as the next example, 
 ## Results
 Predictions and model evaluation: As seen in model notebook, already the simple model performs not too poorly. The advantage of using the RMSE is that it's in the same unit as the original data, i.e. 1.000 passengers / month.
 
-Training data score: 21.46 RMSE
-Test data score: 53.37 RMSE
+1. Training data score: 21.46 RMSE
+2. Test data score: 53.37 RMSE
